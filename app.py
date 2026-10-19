@@ -226,3 +226,121 @@ with pages[5]:
 
 st.divider()
 st.caption('Research prototype. Synthetic data; validate labels, calibration, event times, repair completeness, component cohorts, and costs before real maintenance decisions.')
+
+# ------------------ DIGITAL TWIN + MANUAL RECORDING STATION ------------------
+st.divider()
+st.header('🏭 Interactive digital twin')
+st.caption('Schematic equipment map. Select a machine to inspect historical component condition. Not connected to sensors.')
+twin_machine = st.selectbox('Equipment schematic', machines, key='twin_machine')
+twin_comp = components.loc[components.Machine == twin_machine].sort_values('Date').groupby('Component').tail(1).copy()
+if not twin_comp.empty:
+    twin_comp['Health (%)'] = 100 * twin_comp.Estimated_Health_Score
+    twin_comp['Status'] = np.select([twin_comp['Health (%)'] < 40, twin_comp['Health (%)'] < 70], ['Critical', 'Monitor'], default='Healthy')
+    twin_comp = twin_comp.sort_values('Health (%)')
+    st.plotly_chart(px.bar(twin_comp, x='Component', y='Health (%)', color='Status', color_discrete_map={'Critical':'#d64545','Monitor':'#e5a02d','Healthy':'#21966a'}, title=f'{twin_machine} — component condition map', range_y=[0,105]), use_container_width=True)
+    twin_component = st.selectbox('Inspect component', twin_comp.Component.tolist(), key='twin_component')
+    selected_part = twin_comp.loc[twin_comp.Component == twin_component].iloc[0]
+    r1,r2,r3 = st.columns(3)
+    r1.metric('Component health', f"{selected_part['Health (%)']:.1f}%")
+    r2.metric('Wear', f"{selected_part.Wear_Percentage:.1f}%")
+    r3.metric('Status', selected_part.Status)
+    repair_history = maintenance.loc[(maintenance.Machine == twin_machine) & (maintenance.Component == twin_component)]
+    st.write('Last recorded maintenance:', str(repair_history.Date.max().date()) if not repair_history.empty else 'Not recorded')
+    part_trend = components.loc[(components.Machine == twin_machine) & (components.Component == twin_component)]
+    st.plotly_chart(px.line(part_trend, x='Date', y='Estimated_Health_Score', title='Historical component health trend'), use_container_width=True)
+
+st.header('📝 Manual data recording station')
+st.caption('New submissions are stored in Supabase, not in local CSV files. Existing charts above display the historical synthetic dataset; submitted records are shown in the live-records table below.')
+
+try:
+    sb_url = st.secrets.get('SUPABASE_URL')
+    sb_key = st.secrets.get('SUPABASE_ANON_KEY')
+except Exception:
+    sb_url, sb_key = None, None
+
+if not sb_url or not sb_key:
+    st.info('Database not connected yet. Add SUPABASE_URL and SUPABASE_ANON_KEY to Streamlit Cloud → App settings → Secrets. See README.md and supabase_setup.sql.')
+else:
+    from supabase import create_client
+    if 'supabase_client' not in st.session_state:
+        st.session_state.supabase_client = create_client(sb_url, sb_key)
+    sb = st.session_state.supabase_client
+    if 'operator_id' not in st.session_state:
+        st.session_state.operator_id = None
+    if st.session_state.operator_id is None:
+        with st.form('operator_login'):
+            st.subheader('Operator sign-in')
+            email = st.text_input('Supabase Auth email')
+            password = st.text_input('Password', type='password')
+            sign_in = st.form_submit_button('Sign in')
+        if sign_in:
+            try:
+                auth = sb.auth.sign_in_with_password({'email': email, 'password': password})
+                st.session_state.operator_id = auth.user.id
+                st.rerun()
+            except Exception as ex:
+                st.error(f'Login failed: {ex}')
+        st.caption('Create operator accounts in Supabase → Authentication → Users. Do not enter your Supabase database password here.')
+    else:
+        st.success('Authenticated recording session')
+        if st.button('Sign out of recording station'):
+            sb.auth.sign_out()
+            st.session_state.operator_id = None
+            st.rerun()
+        record_kind = st.radio('Record type', ['Inspection', 'Failure', 'Repair', 'Replacement'], horizontal=True)
+        with st.form('manual_record_form', clear_on_submit=True):
+            cc1, cc2 = st.columns(2)
+            machine = cc1.selectbox('Machine', machines, key='record_machine')
+            part_options = sorted(components.loc[components.Machine == machine, 'Component'].dropna().unique().tolist())
+            component = cc2.selectbox('Component', part_options, key='record_component')
+            operator = st.text_input('Recorded by / technician', max_chars=120)
+            today = pd.Timestamp.now(tz='Africa/Gaborone').date()
+            event_day = st.date_input('Event date', value=today)
+            payload = {'machine':machine, 'component':component}
+            if record_kind == 'Inspection':
+                hours = st.number_input('Operating hours during inspection period', min_value=0.0, value=8.0)
+                wear = st.slider('Wear index (%)', 0, 100, 35)
+                status = st.selectbox('Condition', ['Healthy','Monitor','Critical','Under maintenance'])
+                observations = st.text_area('Inspection observations')
+                payload.update(inspection_date=event_day.isoformat(), operating_hours=hours, wear_index=wear, condition_status=status, observations=observations, recorded_by=operator)
+                table_name = 'inspections'
+            elif record_kind == 'Failure':
+                mode = st.text_input('Failure type')
+                downtime = st.number_input('Downtime (hours)', min_value=0.0, value=0.0)
+                desc = st.text_area('Failure description')
+                payload.update(failure_date=event_day.isoformat()+'T12:00:00+02:00', failure_type=mode, downtime_hours=downtime, failure_description=desc, reported_by=operator)
+                table_name = 'failures'
+            elif record_kind == 'Repair':
+                kind = st.selectbox('Maintenance type', ['Corrective','Preventive','Predictive','Inspection'])
+                duration = st.number_input('Repair duration (hours)', min_value=0.0, value=0.0)
+                cost = st.number_input('Repair cost (BWP)', min_value=0.0, value=0.0)
+                desc = st.text_area('Work performed')
+                payload.update(repair_date=event_day.isoformat()+'T12:00:00+02:00', maintenance_type=kind, repair_duration_hours=duration, repair_cost_bwp=cost, repair_description=desc, technician=operator)
+                table_name = 'repairs'
+            else:
+                age = st.number_input('Removed component age (days)', min_value=0.0, value=0.0)
+                reason = st.text_area('Replacement reason')
+                cost = st.number_input('Replacement cost (BWP)', min_value=0.0, value=0.0)
+                payload.update(replacement_date=event_day.isoformat()+'T12:00:00+02:00', component_age_days=age, replacement_reason=reason, replacement_cost_bwp=cost, replaced_by=operator)
+                table_name = 'replacements'
+            submitted = st.form_submit_button('Save record to Supabase', type='primary')
+        if submitted:
+            try:
+                payload['user_id'] = st.session_state.operator_id
+                sb.table(table_name).insert(payload).execute()
+                st.success(f'{record_kind} record saved successfully.')
+            except Exception as ex:
+                st.error(f'Record was not saved: {ex}')
+        st.subheader('Saved records (your account)')
+        live_tab = st.selectbox('View records', ['inspections','failures','repairs','replacements'])
+        try:
+            response = sb.table(live_tab).select('*').order('recorded_at', desc=True).limit(200).execute()
+            live = pd.DataFrame(response.data)
+            if live.empty:
+                st.info('No saved records in this table yet.')
+            else:
+                st.dataframe(live, hide_index=True, use_container_width=True)
+                st.download_button('Export visible records (CSV)', data=live.to_csv(index=False).encode('utf-8'), file_name=f'{live_tab}_export.csv', mime='text/csv')
+        except Exception as ex:
+            st.error(f'Could not read records: {ex}')
+        st.caption('RLS restricts records to the signed-in user. For shared plant-wide reporting, use a separate supervisor access model and explicit role policies; do not disable RLS.')
