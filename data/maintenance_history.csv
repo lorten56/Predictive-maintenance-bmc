@@ -1,0 +1,889 @@
+Maintenance_ID,Date,Machine,Component,Maintenance_Type,Action,Repair_Duration_Hours,Downtime_Minutes,Trigger
+M00001,2021-01-27,Rotary Machine,Drive Belt,Corrective,Corrective repair following recorded failure,0.3,17,Failure event
+M00002,2021-02-05,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00003,2021-02-16,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00004,2021-02-26,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00005,2021-03-05,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00006,2021-03-08,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00007,2021-03-12,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00008,2021-03-12,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,12,Condition-based preventive maintenance
+M00009,2021-03-15,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00010,2021-03-19,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00011,2021-03-19,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00012,2021-03-20,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00013,2021-03-20,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00014,2021-03-24,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00015,2021-03-25,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00016,2021-03-28,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00017,2021-03-29,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00018,2021-04-01,Shrink Wrapper,Heating Element,Corrective,Corrective repair following recorded failure,3.11,213,Failure event
+M00019,2021-04-01,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00020,2021-04-02,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00021,2021-04-03,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00022,2021-04-03,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,13,Condition-based preventive maintenance
+M00023,2021-04-04,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00024,2021-04-04,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00025,2021-04-07,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00026,2021-04-08,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00027,2021-04-08,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00028,2021-04-09,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00029,2021-04-09,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00030,2021-04-11,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00031,2021-04-16,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,24,Condition-based preventive maintenance
+M00032,2021-04-17,VS75TS,Lubrication System,Corrective,Corrective repair following recorded failure,0.46,35,Failure event
+M00033,2021-04-18,Shrink Wrapper,Gearbox,Corrective,Corrective repair following recorded failure,4.82,310,Failure event
+M00034,2021-04-22,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00035,2021-04-23,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00036,2021-04-27,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00037,2021-05-05,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00038,2021-05-10,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00039,2021-05-11,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00040,2021-05-12,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00041,2021-05-12,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00042,2021-05-14,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00043,2021-05-17,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00044,2021-05-23,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00045,2021-05-23,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00046,2021-05-23,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00047,2021-05-26,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00048,2021-05-27,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00049,2021-05-28,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00050,2021-05-29,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00051,2021-06-03,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00052,2021-06-05,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00053,2021-06-08,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00054,2021-06-11,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00055,2021-06-11,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00056,2021-06-14,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,19,Condition-based preventive maintenance
+M00057,2021-06-15,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00058,2021-06-17,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00059,2021-06-17,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00060,2021-06-18,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00061,2021-06-19,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00062,2021-06-22,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00063,2021-06-27,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00064,2021-07-02,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,30,Condition-based preventive maintenance
+M00065,2021-07-02,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00066,2021-07-03,Rotary Machine,Feed Mechanism,Corrective,Corrective repair following recorded failure,0.5,38,Failure event
+M00067,2021-07-06,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00068,2021-07-09,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00069,2021-07-09,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00070,2021-07-10,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00071,2021-07-10,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00072,2021-07-11,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00073,2021-07-14,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00074,2021-07-15,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00075,2021-07-18,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00076,2021-07-22,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,12,Condition-based preventive maintenance
+M00077,2021-07-24,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00078,2021-07-24,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00079,2021-07-26,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00080,2021-07-26,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00081,2021-07-29,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00082,2021-08-02,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00083,2021-08-04,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00084,2021-08-05,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00085,2021-08-11,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00086,2021-08-12,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00087,2021-08-15,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00088,2021-08-16,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00089,2021-08-21,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00090,2021-08-23,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00091,2021-08-24,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00092,2021-08-24,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00093,2021-08-26,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00094,2021-08-31,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00095,2021-09-01,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00096,2021-09-02,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00097,2021-09-02,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00098,2021-09-03,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00099,2021-09-06,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00100,2021-09-06,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00101,2021-09-09,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00102,2021-09-10,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00103,2021-09-12,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00104,2021-09-13,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00105,2021-09-14,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00106,2021-09-15,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00107,2021-09-15,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,19,Condition-based preventive maintenance
+M00108,2021-09-18,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00109,2021-09-20,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00110,2021-09-22,VS75TS,Transmission / Gearbox,Corrective,Corrective repair following recorded failure,0.43,25,Failure event
+M00111,2021-09-24,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00112,2021-09-26,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00113,2021-09-29,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00114,2021-09-30,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00115,2021-10-02,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00116,2021-10-05,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00117,2021-10-07,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00118,2021-10-08,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00119,2021-10-13,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00120,2021-10-16,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00121,2021-10-16,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00122,2021-10-23,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00123,2021-10-25,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00124,2021-10-27,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00125,2021-10-28,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00126,2021-10-31,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,28,Condition-based preventive maintenance
+M00127,2021-11-02,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00128,2021-11-04,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00129,2021-11-04,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00130,2021-11-05,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00131,2021-11-05,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00132,2021-11-06,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00133,2021-11-06,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00134,2021-11-07,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00135,2021-11-07,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00136,2021-11-08,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00137,2021-11-14,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00138,2021-11-18,Shrink Wrapper,Pneumatic Cylinder,Corrective,Corrective repair following recorded failure,4.63,299,Failure event
+M00139,2021-11-22,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00140,2021-11-23,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00141,2021-11-26,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00142,2021-11-27,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00143,2021-11-28,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00144,2021-11-28,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00145,2021-12-05,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00146,2021-12-05,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00147,2021-12-09,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00148,2021-12-09,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00149,2021-12-10,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00150,2021-12-11,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00151,2021-12-14,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00152,2021-12-17,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00153,2021-12-17,VS75TS,Main Bearing,Corrective,Corrective repair following recorded failure,2.83,175,Failure event
+M00154,2021-12-17,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00155,2021-12-19,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00156,2021-12-19,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00157,2021-12-21,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00158,2021-12-25,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00159,2021-12-25,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00160,2021-12-29,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,28,Condition-based preventive maintenance
+M00161,2022-01-02,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00162,2022-01-06,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00163,2022-01-06,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00164,2022-01-12,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00165,2022-01-13,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00166,2022-01-14,Rotary Machine,Position Sensor,Corrective,Corrective repair following recorded failure,0.3,17,Failure event
+M00167,2022-01-15,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00168,2022-01-15,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00169,2022-01-17,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,19,Condition-based preventive maintenance
+M00170,2022-01-18,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,13,Condition-based preventive maintenance
+M00171,2022-01-21,Shrink Wrapper,Control Relay,Corrective,Corrective repair following recorded failure,0.82,46,Failure event
+M00172,2022-01-22,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00173,2022-01-29,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00174,2022-02-04,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00175,2022-02-05,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00176,2022-02-10,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00177,2022-02-10,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00178,2022-02-11,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00179,2022-02-13,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00180,2022-02-13,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00181,2022-02-13,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00182,2022-02-14,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00183,2022-02-16,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00184,2022-02-18,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00185,2022-02-18,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00186,2022-02-18,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00187,2022-02-19,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00188,2022-02-24,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00189,2022-02-27,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00190,2022-02-27,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,12,Condition-based preventive maintenance
+M00191,2022-02-28,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00192,2022-03-03,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00193,2022-03-04,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,28,Condition-based preventive maintenance
+M00194,2022-03-05,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00195,2022-03-11,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00196,2022-03-12,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00197,2022-03-13,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00198,2022-03-16,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00199,2022-03-18,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00200,2022-03-22,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00201,2022-03-26,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00202,2022-03-28,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00203,2022-03-29,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00204,2022-04-01,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00205,2022-04-11,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,12,Condition-based preventive maintenance
+M00206,2022-04-11,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00207,2022-04-13,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00208,2022-04-14,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00209,2022-04-17,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00210,2022-04-17,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00211,2022-04-17,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,13,Condition-based preventive maintenance
+M00212,2022-04-18,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00213,2022-04-21,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00214,2022-04-22,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00215,2022-04-23,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,12,Condition-based preventive maintenance
+M00216,2022-04-26,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00217,2022-04-27,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00218,2022-04-28,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00219,2022-04-29,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00220,2022-05-01,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00221,2022-05-02,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00222,2022-05-06,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00223,2022-05-09,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00224,2022-05-10,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00225,2022-05-11,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00226,2022-05-11,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00227,2022-05-14,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00228,2022-05-16,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00229,2022-05-19,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00230,2022-05-20,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00231,2022-05-22,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00232,2022-05-24,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00233,2022-06-02,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00234,2022-06-03,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00235,2022-06-03,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00236,2022-06-04,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00237,2022-06-06,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00238,2022-06-09,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00239,2022-06-11,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00240,2022-06-11,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00241,2022-06-11,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00242,2022-06-16,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00243,2022-06-18,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00244,2022-06-19,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00245,2022-06-20,Rotary Machine,Feed Mechanism,Corrective,Corrective repair following recorded failure,0.5,38,Failure event
+M00246,2022-06-20,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00247,2022-06-22,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00248,2022-06-23,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00249,2022-06-25,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00250,2022-06-26,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00251,2022-06-29,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00252,2022-06-30,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00253,2022-06-30,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00254,2022-07-06,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00255,2022-07-08,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00256,2022-07-11,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00257,2022-07-13,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00258,2022-07-23,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00259,2022-07-24,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00260,2022-07-26,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00261,2022-07-26,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00262,2022-07-27,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00263,2022-07-29,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00264,2022-08-01,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00265,2022-08-01,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00266,2022-08-02,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00267,2022-08-03,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00268,2022-08-06,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,30,Condition-based preventive maintenance
+M00269,2022-08-06,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00270,2022-08-07,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00271,2022-08-10,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00272,2022-08-11,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00273,2022-08-13,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00274,2022-08-14,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00275,2022-08-16,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00276,2022-08-17,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00277,2022-08-21,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00278,2022-08-23,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00279,2022-08-28,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,25,Condition-based preventive maintenance
+M00280,2022-09-01,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00281,2022-09-04,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00282,2022-09-04,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00283,2022-09-05,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00284,2022-09-07,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00285,2022-09-09,VS75TS,Transmission / Gearbox,Corrective,Corrective repair following recorded failure,0.43,25,Failure event
+M00286,2022-09-12,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00287,2022-09-13,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00288,2022-09-14,VS75TS,Lubrication System,Corrective,Corrective repair following recorded failure,1.35,78,Failure event
+M00289,2022-09-17,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00290,2022-09-18,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00291,2022-09-20,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00292,2022-09-22,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00293,2022-09-22,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00294,2022-09-25,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00295,2022-09-25,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00296,2022-09-26,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00297,2022-09-29,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00298,2022-10-04,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00299,2022-10-13,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00300,2022-10-14,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00301,2022-10-14,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00302,2022-10-14,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00303,2022-10-14,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00304,2022-10-15,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00305,2022-10-19,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00306,2022-10-22,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00307,2022-10-23,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00308,2022-10-25,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00309,2022-11-01,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00310,2022-11-02,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00311,2022-11-04,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00312,2022-11-04,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00313,2022-11-05,Shrink Wrapper,Pneumatic Cylinder,Corrective,Corrective repair following recorded failure,4.63,299,Failure event
+M00314,2022-11-08,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00315,2022-11-10,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00316,2022-11-11,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00317,2022-11-11,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00318,2022-11-12,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00319,2022-11-13,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00320,2022-11-13,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00321,2022-11-24,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00322,2022-11-25,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00323,2022-11-27,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00324,2022-11-28,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00325,2022-12-04,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00326,2022-12-04,VS75TS,Main Bearing,Corrective,Corrective repair following recorded failure,2.83,175,Failure event
+M00327,2022-12-05,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00328,2022-12-06,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00329,2022-12-08,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00330,2022-12-12,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00331,2022-12-14,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,18,Condition-based preventive maintenance
+M00332,2022-12-15,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00333,2022-12-15,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00334,2022-12-18,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00335,2022-12-20,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00336,2022-12-25,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00337,2022-12-29,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00338,2022-12-29,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00339,2022-12-30,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00340,2022-12-31,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00341,2023-01-01,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00342,2023-01-01,Rotary Machine,Drive Belt,Corrective,Corrective repair following recorded failure,0.3,17,Failure event
+M00343,2023-01-03,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,30,Condition-based preventive maintenance
+M00344,2023-01-03,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00345,2023-01-03,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00346,2023-01-09,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00347,2023-01-10,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00348,2023-01-15,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00349,2023-01-15,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00350,2023-01-20,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00351,2023-01-22,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00352,2023-01-24,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00353,2023-01-29,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00354,2023-02-02,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00355,2023-02-03,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00356,2023-02-05,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00357,2023-02-07,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00358,2023-02-10,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00359,2023-02-13,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00360,2023-02-14,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,12,Condition-based preventive maintenance
+M00361,2023-02-16,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,13,Condition-based preventive maintenance
+M00362,2023-02-18,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00363,2023-02-20,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00364,2023-02-20,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00365,2023-02-24,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,18,Condition-based preventive maintenance
+M00366,2023-02-24,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00367,2023-02-27,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00368,2023-02-27,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,19,Condition-based preventive maintenance
+M00369,2023-02-28,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00370,2023-03-01,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00371,2023-03-03,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00372,2023-03-03,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00373,2023-03-05,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00374,2023-03-06,Shrink Wrapper,Heating Element,Corrective,Corrective repair following recorded failure,3.11,213,Failure event
+M00375,2023-03-11,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00376,2023-03-11,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00377,2023-03-11,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00378,2023-03-12,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00379,2023-03-12,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00380,2023-03-17,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00381,2023-03-23,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00382,2023-03-26,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00383,2023-03-27,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00384,2023-03-31,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00385,2023-03-31,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00386,2023-04-01,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,12,Condition-based preventive maintenance
+M00387,2023-04-03,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00388,2023-04-03,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00389,2023-04-04,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00390,2023-04-04,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00391,2023-04-07,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00392,2023-04-12,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,24,Condition-based preventive maintenance
+M00393,2023-04-13,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00394,2023-04-15,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00395,2023-04-19,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,28,Condition-based preventive maintenance
+M00396,2023-04-23,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00397,2023-04-27,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00398,2023-04-28,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00399,2023-04-29,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00400,2023-05-01,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00401,2023-05-05,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00402,2023-05-08,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00403,2023-05-09,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00404,2023-05-09,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00405,2023-05-10,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00406,2023-05-17,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00407,2023-05-17,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00408,2023-05-20,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00409,2023-05-20,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00410,2023-05-21,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00411,2023-05-23,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00412,2023-05-23,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00413,2023-05-23,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,19,Condition-based preventive maintenance
+M00414,2023-05-25,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00415,2023-05-27,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00416,2023-05-29,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00417,2023-05-29,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00418,2023-06-01,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00419,2023-06-05,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00420,2023-06-07,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00421,2023-06-07,Rotary Machine,Feed Mechanism,Corrective,Corrective repair following recorded failure,0.5,38,Failure event
+M00422,2023-06-08,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00423,2023-06-08,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00424,2023-06-11,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00425,2023-06-15,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00426,2023-06-17,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00427,2023-06-18,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00428,2023-06-23,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00429,2023-06-23,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00430,2023-06-26,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00431,2023-06-26,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00432,2023-06-30,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00433,2023-07-02,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00434,2023-07-10,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00435,2023-07-17,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00436,2023-07-18,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,25,Condition-based preventive maintenance
+M00437,2023-07-18,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00438,2023-07-19,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00439,2023-07-20,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00440,2023-07-21,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00441,2023-07-24,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,25,Condition-based preventive maintenance
+M00442,2023-07-28,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00443,2023-07-28,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00444,2023-07-29,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00445,2023-07-29,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00446,2023-07-30,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00447,2023-07-30,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00448,2023-07-30,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00449,2023-08-01,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00450,2023-08-03,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00451,2023-08-03,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,30,Condition-based preventive maintenance
+M00452,2023-08-06,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00453,2023-08-08,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00454,2023-08-11,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00455,2023-08-13,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00456,2023-08-14,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,30,Condition-based preventive maintenance
+M00457,2023-08-15,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00458,2023-08-19,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00459,2023-08-23,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00460,2023-08-23,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00461,2023-08-27,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00462,2023-08-27,VS75TS,Transmission / Gearbox,Corrective,Corrective repair following recorded failure,0.43,25,Failure event
+M00463,2023-08-31,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00464,2023-08-31,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00465,2023-09-01,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00466,2023-09-03,Rotary Machine,Drive Belt,Corrective,Corrective repair following recorded failure,1.04,58,Failure event
+M00467,2023-09-06,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00468,2023-09-10,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00469,2023-09-10,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00470,2023-09-11,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00471,2023-09-12,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00472,2023-09-14,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00473,2023-09-15,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00474,2023-09-21,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00475,2023-09-23,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00476,2023-09-23,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00477,2023-09-24,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00478,2023-09-24,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00479,2023-09-28,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00480,2023-09-28,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00481,2023-10-01,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00482,2023-10-01,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00483,2023-10-04,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00484,2023-10-09,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00485,2023-10-09,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00486,2023-10-10,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00487,2023-10-11,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00488,2023-10-16,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00489,2023-10-17,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00490,2023-10-18,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00491,2023-10-21,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00492,2023-10-23,Shrink Wrapper,Pneumatic Cylinder,Corrective,Corrective repair following recorded failure,4.63,299,Failure event
+M00493,2023-10-26,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00494,2023-10-28,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00495,2023-11-01,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00496,2023-11-01,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00497,2023-11-03,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00498,2023-11-09,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00499,2023-11-09,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00500,2023-11-12,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00501,2023-11-13,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00502,2023-11-13,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00503,2023-11-17,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00504,2023-11-19,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00505,2023-11-21,VS75TS,Main Bearing,Corrective,Corrective repair following recorded failure,2.83,175,Failure event
+M00506,2023-11-21,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00507,2023-11-22,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00508,2023-11-28,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00509,2023-11-29,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00510,2023-11-29,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00511,2023-11-29,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00512,2023-12-01,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00513,2023-12-07,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00514,2023-12-08,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00515,2023-12-10,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00516,2023-12-13,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00517,2023-12-18,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00518,2023-12-25,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00519,2023-12-27,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00520,2023-12-29,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00521,2023-12-31,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00522,2024-01-02,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00523,2024-01-04,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00524,2024-01-05,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00525,2024-01-06,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00526,2024-01-06,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00527,2024-01-06,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00528,2024-01-07,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00529,2024-01-12,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00530,2024-01-15,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00531,2024-01-18,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00532,2024-01-19,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00533,2024-01-19,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00534,2024-01-19,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00535,2024-01-21,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00536,2024-01-23,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00537,2024-01-25,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00538,2024-01-25,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00539,2024-01-28,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00540,2024-01-28,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00541,2024-01-28,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00542,2024-01-30,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00543,2024-02-01,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,12,Condition-based preventive maintenance
+M00544,2024-02-02,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00545,2024-02-11,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,18,Condition-based preventive maintenance
+M00546,2024-02-14,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00547,2024-02-15,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00548,2024-02-21,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00549,2024-02-23,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00550,2024-02-27,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00551,2024-02-29,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00552,2024-03-01,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00553,2024-03-01,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00554,2024-03-04,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00555,2024-03-07,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00556,2024-03-08,VS75TS,Lubrication System,Corrective,Corrective repair following recorded failure,0.46,35,Failure event
+M00557,2024-03-09,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00558,2024-03-10,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00559,2024-03-10,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00560,2024-03-13,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00561,2024-03-14,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00562,2024-03-17,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00563,2024-03-18,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00564,2024-03-20,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00565,2024-03-24,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00566,2024-03-25,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00567,2024-03-26,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00568,2024-03-27,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,12,Condition-based preventive maintenance
+M00569,2024-03-28,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00570,2024-03-29,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00571,2024-04-03,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00572,2024-04-05,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00573,2024-04-13,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00574,2024-04-14,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00575,2024-04-18,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00576,2024-04-22,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00577,2024-04-22,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00578,2024-04-23,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00579,2024-04-25,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00580,2024-04-26,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00581,2024-04-27,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00582,2024-04-27,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00583,2024-04-28,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00584,2024-05-05,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00585,2024-05-05,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00586,2024-05-06,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00587,2024-05-07,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00588,2024-05-07,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00589,2024-05-12,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00590,2024-05-12,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00591,2024-05-13,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00592,2024-05-15,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00593,2024-05-19,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00594,2024-05-22,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00595,2024-05-23,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00596,2024-05-24,Rotary Machine,Feed Mechanism,Corrective,Corrective repair following recorded failure,0.5,38,Failure event
+M00597,2024-05-26,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00598,2024-06-01,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00599,2024-06-01,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00600,2024-06-03,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00601,2024-06-03,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00602,2024-06-09,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00603,2024-06-09,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00604,2024-06-12,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,12,Condition-based preventive maintenance
+M00605,2024-06-13,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00606,2024-06-15,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00607,2024-06-16,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00608,2024-06-17,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00609,2024-06-18,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00610,2024-06-19,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00611,2024-06-20,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00612,2024-06-22,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00613,2024-06-24,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00614,2024-06-29,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00615,2024-06-30,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00616,2024-07-06,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00617,2024-07-07,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00618,2024-07-10,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00619,2024-07-16,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00620,2024-07-18,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00621,2024-07-18,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00622,2024-07-20,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,30,Condition-based preventive maintenance
+M00623,2024-07-21,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00624,2024-07-22,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00625,2024-07-26,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00626,2024-07-29,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00627,2024-07-31,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,30,Condition-based preventive maintenance
+M00628,2024-08-01,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,25,Condition-based preventive maintenance
+M00629,2024-08-03,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00630,2024-08-05,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00631,2024-08-05,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00632,2024-08-08,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00633,2024-08-09,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00634,2024-08-13,VS75TS,Transmission / Gearbox,Corrective,Corrective repair following recorded failure,0.43,25,Failure event
+M00635,2024-08-15,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00636,2024-08-17,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,12,Condition-based preventive maintenance
+M00637,2024-08-18,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,28,Condition-based preventive maintenance
+M00638,2024-08-18,VS75TS,Limit Sensor,Corrective,Corrective repair following recorded failure,1.35,78,Failure event
+M00639,2024-08-21,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00640,2024-08-21,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00641,2024-08-24,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00642,2024-08-27,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00643,2024-08-29,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00644,2024-08-31,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00645,2024-09-01,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00646,2024-09-05,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00647,2024-09-06,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00648,2024-09-06,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00649,2024-09-06,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00650,2024-09-10,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00651,2024-09-11,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00652,2024-09-16,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00653,2024-09-17,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00654,2024-09-18,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00655,2024-09-21,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,25,Condition-based preventive maintenance
+M00656,2024-09-25,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00657,2024-09-26,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00658,2024-09-26,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00659,2024-09-27,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00660,2024-09-28,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00661,2024-09-30,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,12,Condition-based preventive maintenance
+M00662,2024-10-09,Shrink Wrapper,Pneumatic Cylinder,Corrective,Corrective repair following recorded failure,4.63,299,Failure event
+M00663,2024-10-10,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00664,2024-10-11,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00665,2024-10-15,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00666,2024-10-17,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00667,2024-10-17,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00668,2024-10-22,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00669,2024-10-22,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00670,2024-10-24,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00671,2024-10-24,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00672,2024-10-26,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00673,2024-10-26,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00674,2024-10-29,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00675,2024-11-01,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00676,2024-11-05,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00677,2024-11-07,VS75TS,Main Bearing,Corrective,Corrective repair following recorded failure,2.83,175,Failure event
+M00678,2024-11-07,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00679,2024-11-08,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00680,2024-11-15,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00681,2024-11-19,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00682,2024-11-21,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00683,2024-11-21,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00684,2024-11-22,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00685,2024-11-22,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00686,2024-11-23,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00687,2024-11-27,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00688,2024-11-27,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00689,2024-11-28,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00690,2024-11-28,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00691,2024-12-02,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00692,2024-12-03,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00693,2024-12-04,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00694,2024-12-06,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00695,2024-12-10,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00696,2024-12-11,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00697,2024-12-11,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00698,2024-12-13,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00699,2024-12-16,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00700,2024-12-17,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00701,2024-12-25,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00702,2024-12-26,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00703,2024-12-26,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,17,Condition-based preventive maintenance
+M00704,2024-12-29,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00705,2024-12-30,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00706,2024-12-30,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00707,2025-01-01,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00708,2025-01-06,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00709,2025-01-06,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,28,Condition-based preventive maintenance
+M00710,2025-01-08,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00711,2025-01-08,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00712,2025-01-11,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00713,2025-01-19,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00714,2025-01-24,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00715,2025-01-29,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,18,Condition-based preventive maintenance
+M00716,2025-02-01,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00717,2025-02-02,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00718,2025-02-02,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00719,2025-02-03,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00720,2025-02-04,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00721,2025-02-05,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00722,2025-02-05,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00723,2025-02-05,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00724,2025-02-08,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00725,2025-02-10,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00726,2025-02-13,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00727,2025-02-15,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00728,2025-02-20,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00729,2025-02-20,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00730,2025-02-23,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00731,2025-02-23,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,25,Condition-based preventive maintenance
+M00732,2025-02-26,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00733,2025-02-26,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00734,2025-02-28,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00735,2025-03-01,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00736,2025-03-04,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00737,2025-03-08,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00738,2025-03-09,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00739,2025-03-11,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00740,2025-03-13,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,30,Condition-based preventive maintenance
+M00741,2025-03-15,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00742,2025-03-19,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00743,2025-03-19,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00744,2025-03-21,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,11,Condition-based preventive maintenance
+M00745,2025-03-22,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00746,2025-03-25,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00747,2025-03-25,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00748,2025-03-26,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00749,2025-04-02,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00750,2025-04-04,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00751,2025-04-07,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00752,2025-04-09,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00753,2025-04-12,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00754,2025-04-12,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00755,2025-04-14,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00756,2025-04-18,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00757,2025-04-24,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00758,2025-04-25,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,31,Condition-based preventive maintenance
+M00759,2025-04-25,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00760,2025-04-27,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00761,2025-04-28,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00762,2025-04-30,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00763,2025-04-30,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00764,2025-04-30,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00765,2025-05-02,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00766,2025-05-03,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00767,2025-05-06,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00768,2025-05-07,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00769,2025-05-08,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00770,2025-05-11,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00771,2025-05-12,Rotary Machine,Feed Mechanism,Corrective,Corrective repair following recorded failure,0.5,38,Failure event
+M00772,2025-05-14,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00773,2025-05-16,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00774,2025-05-17,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00775,2025-05-22,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00776,2025-05-27,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00777,2025-05-28,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00778,2025-05-30,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00779,2025-06-04,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00780,2025-06-06,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,19,Condition-based preventive maintenance
+M00781,2025-06-06,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00782,2025-06-07,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00783,2025-06-08,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00784,2025-06-09,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,25,Condition-based preventive maintenance
+M00785,2025-06-09,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00786,2025-06-12,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00787,2025-06-12,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00788,2025-06-15,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00789,2025-06-24,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.37,32,Condition-based preventive maintenance
+M00790,2025-06-24,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00791,2025-06-27,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00792,2025-06-29,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00793,2025-06-30,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00794,2025-07-02,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00795,2025-07-04,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00796,2025-07-04,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.27,23,Condition-based preventive maintenance
+M00797,2025-07-05,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00798,2025-07-06,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00799,2025-07-07,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00800,2025-07-08,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00801,2025-07-12,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.23,20,Condition-based preventive maintenance
+M00802,2025-07-13,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00803,2025-07-13,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00804,2025-07-16,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00805,2025-07-18,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.3,26,Condition-based preventive maintenance
+M00806,2025-07-22,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00807,2025-07-23,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00808,2025-07-26,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00809,2025-07-26,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00810,2025-07-28,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00811,2025-07-30,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,22,Condition-based preventive maintenance
+M00812,2025-08-01,VS75TS,Transmission / Gearbox,Corrective,Corrective repair following recorded failure,0.43,25,Failure event
+M00813,2025-08-05,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00814,2025-08-06,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00815,2025-08-06,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,28,Condition-based preventive maintenance
+M00816,2025-08-06,VS75TS,Limit Sensor,Corrective,Corrective repair following recorded failure,1.35,78,Failure event
+M00817,2025-08-09,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,27,Condition-based preventive maintenance
+M00818,2025-08-10,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00819,2025-08-11,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00820,2025-08-15,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00821,2025-08-20,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.19,16,Condition-based preventive maintenance
+M00822,2025-08-22,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00823,2025-08-24,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00824,2025-08-25,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00825,2025-08-25,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00826,2025-08-27,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00827,2025-09-03,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00828,2025-09-04,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00829,2025-09-05,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.26,23,Condition-based preventive maintenance
+M00830,2025-09-06,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00831,2025-09-09,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00832,2025-09-10,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00833,2025-09-13,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00834,2025-09-13,VS75TS,Main Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,15,Condition-based preventive maintenance
+M00835,2025-09-14,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00836,2025-09-14,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00837,2025-09-16,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.36,31,Condition-based preventive maintenance
+M00838,2025-09-23,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00839,2025-09-26,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00840,2025-09-26,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00841,2025-09-30,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,18,Condition-based preventive maintenance
+M00842,2025-10-02,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,9,Condition-based preventive maintenance
+M00843,2025-10-02,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,20,Condition-based preventive maintenance
+M00844,2025-10-05,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00845,2025-10-06,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00846,2025-10-08,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00847,2025-10-14,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,29,Condition-based preventive maintenance
+M00848,2025-10-17,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.16,14,Condition-based preventive maintenance
+M00849,2025-10-18,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00850,2025-10-19,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00851,2025-10-20,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,21,Condition-based preventive maintenance
+M00852,2025-10-24,Shrink Wrapper,Bearing Set,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00853,2025-10-24,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00854,2025-10-26,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00855,2025-10-26,VS75TS,Main Bearing,Corrective,Corrective repair following recorded failure,2.83,175,Failure event
+M00856,2025-10-30,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.25,22,Condition-based preventive maintenance
+M00857,2025-11-01,Shrink Wrapper,Pneumatic Cylinder,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.34,29,Condition-based preventive maintenance
+M00858,2025-11-01,Rotary Machine,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00859,2025-11-03,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.22,19,Condition-based preventive maintenance
+M00860,2025-11-07,Rotary Machine,Main Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,32,Condition-based preventive maintenance
+M00861,2025-11-08,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00862,2025-11-09,Rotary Machine,Pneumatic Valve,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00863,2025-11-10,Shrink Wrapper,Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,16,Condition-based preventive maintenance
+M00864,2025-11-13,Shrink Wrapper,Cutting Blade,Corrective,Corrective repair following recorded failure,0.42,31,Failure event
+M00865,2025-11-14,Rotary Machine,Main Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00866,2025-11-16,Rotary Machine,Rotary Bearing,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.38,33,Condition-based preventive maintenance
+M00867,2025-11-18,VS75TS,Cooling Fan,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00868,2025-11-19,VS75TS,Actuator,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00869,2025-11-20,Rotary Machine,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.28,24,Condition-based preventive maintenance
+M00870,2025-11-22,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00871,2025-11-23,VS75TS,Electrical Contactor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.24,21,Condition-based preventive maintenance
+M00872,2025-11-24,Shrink Wrapper,Sealing Jaw,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.14,12,Condition-based preventive maintenance
+M00873,2025-11-29,VS75TS,Lubrication System,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00874,2025-12-01,VS75TS,Feed Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.17,14,Condition-based preventive maintenance
+M00875,2025-12-04,Shrink Wrapper,Heating Element,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00876,2025-12-05,Shrink Wrapper,Photoelectric Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.33,28,Condition-based preventive maintenance
+M00877,2025-12-07,Shrink Wrapper,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.2,17,Condition-based preventive maintenance
+M00878,2025-12-14,Rotary Machine,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.18,15,Condition-based preventive maintenance
+M00879,2025-12-16,VS75TS,Transmission / Gearbox,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.32,27,Condition-based preventive maintenance
+M00880,2025-12-17,VS75TS,Drive Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.12,10,Condition-based preventive maintenance
+M00881,2025-12-19,Rotary Machine,Position Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.31,26,Condition-based preventive maintenance
+M00882,2025-12-20,VS75TS,Limit Sensor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
+M00883,2025-12-21,Shrink Wrapper,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.15,13,Condition-based preventive maintenance
+M00884,2025-12-21,Shrink Wrapper,Cutting Blade,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.35,30,Condition-based preventive maintenance
+M00885,2025-12-23,Rotary Machine,Indexing Mechanism,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.29,25,Condition-based preventive maintenance
+M00886,2025-12-26,Shrink Wrapper,Conveyor Belt,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.11,10,Condition-based preventive maintenance
+M00887,2025-12-27,VS75TS,Drive Motor,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.21,18,Condition-based preventive maintenance
+M00888,2025-12-29,Rotary Machine,Control Relay,Preventive,"Inspect, clean, lubricate/adjust, and replace worn consumables if needed",0.13,11,Condition-based preventive maintenance
